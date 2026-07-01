@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-label="Industrial IoT Dashboard preview">
+  <rect width="800" height="480" fill="#F8FAFC"/>
+  <rect x="40" y="40" width="720" height="400" rx="16" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <rect x="64" y="72" width="200" height="16" rx="4" fill="#2563EB" opacity="0.85"/>
+  <rect x="64" y="120" width="150" height="100" rx="10" fill="#EFF6FF"/>
+  <rect x="230" y="120" width="150" height="100" rx="10" fill="#EFF6FF"/>
+  <rect x="396" y="120" width="150" height="100" rx="10" fill="#EFF6FF"/>
+  <rect x="562" y="120" width="174" height="100" rx="10" fill="#EFF6FF"/>
+  <rect x="64" y="240" width="672" height="148" rx="10" fill="#F1F5F9"/>
+  <polyline points="88,340 180,300 280,320 380,260 480,280 580,220 680,250" fill="none" stroke="#2563EB" stroke-width="3"/>
+  <text x="400" y="450" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#6B7280">Industrial IoT Dashboard</text>
+</svg>

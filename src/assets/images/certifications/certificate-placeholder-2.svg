@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" role="img" aria-label="Certificate placeholder">
+  <rect width="640" height="440" fill="#F8FAFC"/>
+  <rect x="32" y="32" width="576" height="376" rx="12" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <circle cx="320" cy="170" r="48" fill="#EFF6FF" stroke="#DBEAFE"/>
+  <rect x="120" y="250" width="400" height="10" rx="3" fill="#CBD5E1"/>
+  <rect x="160" y="278" width="320" height="10" rx="3" fill="#CBD5E1"/>
+  <text x="320" y="400" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#6B7280">Certificate Placeholder</text>
+</svg>

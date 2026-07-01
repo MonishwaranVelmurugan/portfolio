@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://monishwaran-velmurugan.vercel.app/sitemap.xml
