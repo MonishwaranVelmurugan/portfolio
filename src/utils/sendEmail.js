@@ -16,19 +16,21 @@ export async function sendContactEmail(formData) {
     to_name: 'Monishwaran Velmurugan',
   }
 
-  // Send the message to you
   await emailjs.send(
-    emailjsConfig.serviceId,
-    emailjsConfig.templateId,
-    templateParams,
-    emailjsConfig.publicKey,
-  )
+  emailjsConfig.serviceId,
+  emailjsConfig.templateId,
+  templateParams,
+  emailjsConfig.publicKey
+)
 
-  // Send an automatic reply to the visitor
+try {
   await emailjs.send(
     emailjsConfig.serviceId,
     AUTO_REPLY_TEMPLATE_ID,
     templateParams,
-    emailjsConfig.publicKey,
+    emailjsConfig.publicKey
   )
+} catch (error) {
+  console.warn('Auto reply failed:', error)
+}
 }
