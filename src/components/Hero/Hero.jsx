@@ -5,6 +5,7 @@ import Button from '../Button'
 import Container from '../Container'
 import FadeIn from '../FadeIn'
 import OptimizedImage from '../OptimizedImage'
+import resume from '../../resume.pdf'
 
 const socialLinks = [
   { label: 'LinkedIn', href: siteConfig.linkedin, icon: FiLinkedin },
@@ -26,9 +27,14 @@ export default function Hero() {
   } = heroContent
 
   return (
-    <section id="home" aria-label="Introduction" className="bg-background pt-8 pb-16 sm:pt-12 sm:pb-20 lg:pt-16 lg:pb-24">
+    <section
+      id="home"
+      aria-label="Introduction"
+      className="bg-background pt-8 pb-16 sm:pt-12 sm:pb-20 lg:pt-16 lg:pb-24"
+    >
       <Container>
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16 xl:gap-20">
+          {/* Left Content */}
           <div className="order-2 lg:order-1">
             <FadeIn>
               <p className="text-sm font-medium text-primary">{greeting}</p>
@@ -41,11 +47,16 @@ export default function Hero() {
             </FadeIn>
 
             <FadeIn delay={0.1}>
-              <p className="mt-3 text-xl font-medium text-text sm:text-2xl">{title}</p>
+              <p className="mt-3 text-xl font-medium text-text sm:text-2xl">
+                {title}
+              </p>
             </FadeIn>
 
             <FadeIn delay={0.15}>
-              <ul className="mt-5 flex flex-wrap gap-2" aria-label="Areas of specialization">
+              <ul
+                className="mt-5 flex flex-wrap gap-2"
+                aria-label="Areas of specialization"
+              >
                 {specializations.map((item) => (
                   <li
                     key={item}
@@ -65,13 +76,19 @@ export default function Hero() {
 
             <FadeIn delay={0.25}>
               <div className="mt-8 flex flex-wrap items-center gap-3">
-                <Button as="a" href={primaryCta.href} variant="primary" size="lg">
-                  {primaryCta.label}
-                </Button>
                 <Button
                   as="a"
-                  href={siteConfig.resumeUrl}
-                  download
+                  href={primaryCta.href}
+                  variant="primary"
+                  size="lg"
+                >
+                  {primaryCta.label}
+                </Button>
+
+                <Button
+                  as="a"
+                  href={resume}
+                  download="Monishwaran_Velmurugan_Resume.pdf"
                   variant="secondary"
                   size="lg"
                 >
@@ -88,7 +105,11 @@ export default function Hero() {
                     key={label}
                     href={href}
                     target={href.startsWith('mailto:') ? undefined : '_blank'}
-                    rel={href.startsWith('mailto:') ? undefined : 'noopener noreferrer'}
+                    rel={
+                      href.startsWith('mailto:')
+                        ? undefined
+                        : 'noopener noreferrer'
+                    }
                     aria-label={label}
                     className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-border text-muted transition-colors hover:border-primary/30 hover:text-primary"
                   >
@@ -99,7 +120,11 @@ export default function Hero() {
             </FadeIn>
           </div>
 
-          <FadeIn delay={0.1} className="order-1 flex justify-center lg:order-2 lg:justify-end">
+          {/* Right Content */}
+          <FadeIn
+            delay={0.1}
+            className="order-1 flex justify-center lg:order-2 lg:justify-end"
+          >
             <OptimizedImage
               src={profileImage}
               alt={profileAlt}
