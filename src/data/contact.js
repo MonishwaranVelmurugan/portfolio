@@ -9,9 +9,9 @@ import {
 import { siteConfig } from './site'
 
 export const contactContent = {
-  title: "Let's Connect",
+  title: 'Let’s Connect',
   subtitle:
-    "I'm always open to discussing Industrial Automation, Embedded Systems, IoT Solutions, Software Development, and collaboration opportunities.",
+  'Whether you have a project, collaboration opportunity, technical consultation, or training requirement, feel free to get in touch. I would be happy to discuss how we can work together.',
   form: {
     nameLabel: 'Full Name',
     namePlaceholder: 'Your full name',

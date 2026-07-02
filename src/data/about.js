@@ -3,10 +3,10 @@ import { FiCpu, FiGlobe, FiMonitor, FiBookOpen } from 'react-icons/fi'
 export const aboutContent = {
   title: 'About Me',
   paragraphs: [
-    'I am a Senior Project Engineer with practical experience in Industrial IoT, Embedded Systems, Industrial Automation, PLC Programming, and Full Stack Development. I design and deliver systems that connect industrial hardware, software platforms, and business operations into reliable, production-ready solutions.',
-    'My work includes commercial software products, cloud-connected IoT platforms, PLC-integrated automation, and intelligent embedded devices. I have built CRM and ERP platforms for training institutes and healthcare organizations, developed real-time industrial dashboards, and implemented Modbus and MQTT-based monitoring for shop-floor equipment.',
-    'Alongside project delivery, I lead technical workshops and mentor engineering students, helping teams apply automation and software concepts to real industry use cases. I focus on maintainable engineering, clear system design, and outcomes that hold up in live operating environments.',
-  ],
+  'I am a Senior Project Engineer at IPCS Global and the Founder of Rennovia Solutions, specializing in Industrial IoT, Embedded Systems, PLC Automation, and Full Stack Software Development. I design and deliver intelligent automation platforms, cloud-connected IoT solutions, embedded products, and scalable business applications that help organizations improve productivity, streamline operations, and accelerate digital transformation.',
+  'Through Rennovia Solutions, I develop innovative software products and customized solutions for industries, educational institutions, and healthcare organizations. My work includes SaaS-based CRM and ERP platforms, cloud-enabled Industrial IoT systems, PLC-integrated automation, real-time monitoring dashboards, and secure MQTT and Modbus communication solutions for industrial environments.',
+  'Beyond software development, I am passionate about sharing knowledge through technical seminars, workshops, and corporate training programs in Industrial IoT, PLC Programming, Embedded Systems, and Automation Technologies. I enjoy mentoring aspiring engineers, building practical solutions to real-world challenges, and creating technology that delivers measurable business value.',
+],
   expertise: [
     {
       title: 'Industrial IoT',
