@@ -34,10 +34,14 @@ export default function Hero() {
     >
       <Container>
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16 xl:gap-20">
+
           {/* Left Content */}
           <div className="order-2 lg:order-1">
+
             <FadeIn>
-              <p className="text-sm font-medium text-primary">{greeting}</p>
+              <p className="text-sm font-medium text-primary">
+                {greeting}
+              </p>
             </FadeIn>
 
             <FadeIn delay={0.05}>
@@ -74,8 +78,10 @@ export default function Hero() {
               </p>
             </FadeIn>
 
+            {/* Buttons */}
             <FadeIn delay={0.25}>
               <div className="mt-8 flex flex-wrap items-center gap-3">
+
                 <Button
                   as="a"
                   href={primaryCta.href}
@@ -92,13 +98,16 @@ export default function Hero() {
                   variant="secondary"
                   size="lg"
                 >
-                  <FiDownload className="h-4 w-4" aria-hidden="true" />
+                  <FiDownload className="h-4 w-4" />
                   {secondaryCta.label}
                 </Button>
+
               </div>
             </FadeIn>
 
+            {/* Social Links */}
             <FadeIn delay={0.3}>
+
               <div className="mt-8 flex items-center gap-3">
                 {socialLinks.map(({ label, href, icon: Icon }) => (
                   <a
@@ -113,14 +122,33 @@ export default function Hero() {
                     aria-label={label}
                     className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-border text-muted transition-colors hover:border-primary/30 hover:text-primary"
                   >
-                    <Icon className="h-[1.125rem] w-[1.125rem]" aria-hidden="true" />
+                    <Icon className="h-[1.125rem] w-[1.125rem]" />
                   </a>
                 ))}
               </div>
+
+              {/* Company Link */}
+              <div className="mt-5">
+
+                <p className="text-sm text-muted">
+                  Founder of{' '}
+                  <a
+                    href="https://www.rennoviasolutions.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-semibold text-primary hover:underline"
+                  >
+                    Rennovia Solutions →
+                  </a>
+                </p>
+
+              </div>
+
             </FadeIn>
+
           </div>
 
-          {/* Right Content */}
+          {/* Right Image */}
           <FadeIn
             delay={0.1}
             className="order-1 flex justify-center lg:order-2 lg:justify-end"
@@ -136,6 +164,7 @@ export default function Hero() {
               height={320}
             />
           </FadeIn>
+
         </div>
       </Container>
     </section>

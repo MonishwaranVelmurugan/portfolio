@@ -64,6 +64,12 @@ export const contactContent = {
       href: siteConfig.github,
       icon: FiGithub,
     },
+    {
+      id: 'company',
+      title: 'Company Website',
+      value: 'www.rennoviasolutions.com',
+      href: 'https://www.rennoviasolutions.com',
+    }
   ],
   resume: {
     label: 'Download Resume',

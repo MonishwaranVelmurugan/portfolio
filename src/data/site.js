@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: 'Monishwaran Velmurugan',
 
-  designation: 'Senior Project Engineer | Founder, Rennovia Solutions',
+  designation: 'Senior Project Engineer | Founder of Rennovia Solutions',
 
   description:
     'Industrial IoT • Embedded Systems • PLC Automation • Full Stack Development',
@@ -27,7 +27,7 @@ export const siteConfig = {
     siteUrl: 'https://www.monishwaranvelmuruganportfolio.online',
 
     title:
-      'Monishwaran Velmurugan | Senior Project Engineer | Founder, Rennovia Solutions',
+      'Monishwaran Velmurugan | Senior Project Engineer | Founder of Rennovia Solutions',
 
     description:
       'Professional portfolio of Monishwaran Velmurugan, Senior Project Engineer at IPCS Global and Founder of Rennovia Solutions. Specializing in Industrial IoT, Embedded Systems, PLC Automation, SaaS Products, CRM & ERP Development, Python, React, Flask, MQTT, Modbus, and Full Stack Software Engineering.',
