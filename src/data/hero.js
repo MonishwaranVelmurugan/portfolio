@@ -4,7 +4,7 @@ import resume from '../resume.pdf'
 export const heroContent = {
   greeting: "Hello, I'm",
   name: 'Monishwaran Velmurugan',
-  title: 'Senior Project Engineer | Founder, Rennovia Solutions',
+  title: 'Senior Project Engineer | Founder of Rennovia Solutions',
   specializations: [
     'Industrial IoT',
     'Embedded Systems',
